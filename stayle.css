@@ -1,0 +1,140 @@
+body{
+    background: url(newBack.png) no-repeat center center fixed; 
+    background-size: cover;
+}
+#titel1{
+    padding: 40px;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(33, 33, 43), 0 0 5px rgb(116, 116, 124);
+}
+.row{
+    position: absolute;
+    text-align: center;
+    left: 38%;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #987122;
+  }
+  
+  .button1:hover {
+    background-color: #987122;
+    color: white;
+    transform: rotatex(360deg);
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4caf8e;
+  }
+  
+  .button2:hover {
+    background-color: #4caf8e;
+    color: white;
+    transform: rotatex(360deg);
+  }  
+  #back{
+    position: absolute;
+    background-image: url(cut1.jpg);
+    background-color: aliceblue;
+  }
+
+  #openR{
+    text-align: center;
+  }
+  #openI{
+    text-align: center;
+  }
+  #D{
+    padding: 100px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 15px;
+    text-align: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .FirstD{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1%;
+    padding: 20px;
+    background-color: rgba(249, 251, 251, 0.629);
+    box-shadow: 0px 0px 79px 0px rgb(0 0 0 / 75%);
+  }
+  .FirstD img{
+    max-width: -webkit-fill-available;
+  }
+  #D h3{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: double;
+  }
+  #D button{
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(11, 11, 11);
+    background-color: #8da2c7;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(130 138 143);
+  }
+
+  #Details{
+    text-align: center;
+    padding: 100px;
+    display: block;
+  }
+
+  .tag{
+    background-color: #c3963e;
+    width: 25%;
+  }
+
+  .btn{
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #7590be;
+    border-color: #92a5c6;
+  }
+  #row1{
+    left: 50%;
+    position:sticky;
+    display:inline-block;
+  }
+  .row11{
+    left: 50%;
+    position:sticky;
+    display:inline-block;
+    border-style: groove;
+    border-width: 7px;
+    border-color: coral;
+  }
+  
